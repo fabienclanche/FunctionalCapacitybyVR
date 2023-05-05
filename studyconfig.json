@@ -1,0 +1,26 @@
+{
+	"forms": [
+			{"name": "$fesi:title", "text": "$fesi:intro", "fields": [
+				{"name": "$fesi:Q1dress", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$fesi:Q2bath", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$fesi:Q3chair", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$fesi:Q4stairs", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$fesi:Q5reach", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$fesi:Q6slope", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$fesi:Q7goingout", "type": "fesi", "defaultValue": 0, "required": true}
+			]},
+			
+			{"name": "$patientexp:title", "text": "$patientexp:intro", "fields": [
+				{"name": "$patientexp:Q1experience", "type": "yesno", "defaultValue": false, "required": true},
+				{"name": "$patientexp:Q2realness", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$patientexp:Q3nausea", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$patientexp:Q4comfort", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$patientexp:Q5fatigue", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$patientexp:Q6clarity", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$patientexp:Q7planning", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$patientexp:Q8apprehension", "type": "fesi", "defaultValue": 0, "required": true},
+				{"name": "$patientexp:Q9safety", "type": "integer", "hasRange":true, "min": 1, "max": 10, "defaultValue": 0, "required": true},
+				{"name": "$patientexp:remarks", "type": "textarea"}
+			]}
+		]
+} 
